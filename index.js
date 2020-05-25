@@ -6,7 +6,7 @@ function handleClick(e) {
 }
 
 function greet(time){
-  
+  if
 }
 
 function displayMessage(){
