@@ -5,7 +5,7 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-function greet(){
+function greet(time){
   
 }
 
