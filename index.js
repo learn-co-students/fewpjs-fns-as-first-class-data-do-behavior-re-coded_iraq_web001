@@ -21,10 +21,11 @@ function greet(time) {
     return "Good Evening";
   }
 }
+
 /* Write your implementation of displayMessage() */
 function displayMessage(greeting='TEST'
 ) {
   
-  document.querySelector("#greeting").textContent = greeting;
+  document.querySelector("#greeting").innerText = greeting;
 }
 
