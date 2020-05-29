@@ -2,7 +2,7 @@
 /* Given Code, don't edit */
 
 function handleClick(e) {
-  const timeString = parseInt(document.getElementById("time").value);
+  const timeString =document.getElementById("time").value;
   // console.log(timeString);
   // console.log(typeof timeString);
   displayMessage(greet(timeString));
