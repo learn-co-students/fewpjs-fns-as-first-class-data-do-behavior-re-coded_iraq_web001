@@ -1,3 +1,4 @@
+
 /* Given Code, don't edit */
 
 function handleClick(e) {
@@ -8,7 +9,6 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-
 /* Write your implementation of greet() */
 function greet(time) {
   if (time < 12) {
@@ -19,9 +19,8 @@ function greet(time) {
     return "Good Evening";
   }
 }
-
 /* Write your implementation of displayMessage() */
-
 function displayMessage(greeting) {
   document.querySelector("#greeting").textContent = greeting;
 }
+
