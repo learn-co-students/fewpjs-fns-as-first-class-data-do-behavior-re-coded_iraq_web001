@@ -1,27 +1,31 @@
+
 /* Given Code, don't edit */
 
 function handleClick(e) {
-  const timeString = parseInt(document.getElementById("time").value);
+  const timeString =document.getElementById("time").value;
   // console.log(timeString);
   // console.log(typeof timeString);
   displayMessage(greet(timeString));
 }
 
 /* End Given Code, don't edit above here...*/
-
 /* Write your implementation of greet() */
 function greet(time) {
-  if (time < 12) {
+  let timeNumber = parseInt(time.split(':')[0]);
+  
+  if (timeNumber < 12) {
     return "Good Morning";
-  } else if (time >= 12 && time < 17) {
+  } else if (timeNumber < 17) {
     return "Good Afternoon";
-  } else if (time >= 5) {
+  } else  {
     return "Good Evening";
   }
 }
 
 /* Write your implementation of displayMessage() */
-
-function displayMessage(greeting) {
-  document.querySelector("#greeting").textContent = greeting;
+function displayMessage(greeting='TEST'
+) {
+  
+  document.querySelector("#greeting").innerText = greeting;
 }
+
