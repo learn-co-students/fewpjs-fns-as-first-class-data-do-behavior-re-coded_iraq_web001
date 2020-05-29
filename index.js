@@ -22,7 +22,8 @@ function greet(time) {
   }
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(greeting) {
+function displayMessage(greeting='TEST'
+) {
   
   document.querySelector("#greeting").textContent = greeting;
 }
